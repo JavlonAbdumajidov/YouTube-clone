@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+}
+
+:root{
+    --black-color:black;
+    --white-color:white;
+    --gray-color:#717171;
+}
+
+body{
+    max-width: 1645px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    height: 3622px;
+    background: var(--black-color);
+    border: none;
+}
+
+span{
+    font-weight: 400;
+}
+
