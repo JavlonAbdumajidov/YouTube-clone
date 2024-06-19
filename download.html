@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <style>
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="max-w-full h-[1356px] bg-[--black-color]">
+        <nav class="w-full h-full flex flex-col">
+            <div class="w-full h-[56px] flex items-center p-[1rem] bg-[--black-color] justify-between z-10 fixed">
+                <div class="flex items-center w-[169px] flex justify-between h-[56px] ">
+                    <a href="./menu.html"><span
+                            class="material-symbols-outlined text-[35px] text-[--white-color]">menu</span></a>
+                    <button class="flex items-center font-[500] text-[25px] text-[--white-color]"><img
+                            src="./Assets/logo.png" class="w-[35px] h-[35px]" alt="">YouTube</button>
+                </div>
+                <div class="flex items-center justify-center h-[40px] w-[732px] ml-[5rem]">
+                    <div class="flex items-center w-[640px] h-[40px] ml-[40px]">
+                        <button class="w-[536px] h-[42px] flex">
+                            <input
+                                class="bg-[--black-color] h-[42px] w-[90%] text-[--white-color] rounded-l-full border border-[--gray-color] font-mono"
+                                type="search" placeholder="Введите вопрос">
+                            <span
+                                class=" material-symbols-outlined w-[10%] h-[42px] grid items-center border border-[--gray-color] text-[--white-color] ">keyboard</span>
+                        </button>
+                        <button>
+                            <span
+                                class="material-symbols-outlined w-[64px] h-[42px] border bg-[--gray-color] border-[--gray-color] rounded-r-full grid items-center text-[--white-color] ">search</span>
+                        </button>
+                    </div>
+                    <button>
+                        <span
+                            class="material-symbols-outlined w-[40px] h-[40px] rounded-full bg-[--gray-color] grid items-center text-[--white-color]">mic</span>
+                    </button>
+                </div>
+                <div class="flex items-center justify-between w-[156px] h-[40px]">
+                    <span
+                        class="material-symbols-outlined w-[40px] h-[40px] flex items-center justify-center
+                    . bg-[--black-color] border border-[--black-color] rounded-full text-[--white-color] hover:bg-[--gray-color]">video_call</span>
+                    <span
+                        class="material-symbols-outlined w-[40px] h-[40px] flex items-center justify-center
+                    . bg-[--black-color] border border-[--black-color] rounded-full text-[--white-color] hover:bg-[--gray-color]">notifications</span>
+                    <span
+                        class="w-[40px] h-[40px] rounded-full bg-[orange] text-[25px] text-center text-[--white-color]">J</span>
+                </div>
+            </div>
+            <div class="w-full bg-[--black-color] h-full justify-between mt-[4rem] flex">
+                <div class="w-[15%] flex fixed flex-col bg-[--black-color] h-screen overflow-auto no-scrollbar">
+                    <div class="w-full h-[544px] flex flex-col justify-between">
+                        <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <span class="material-symbols-outlined text-[30px] text-[--white-color]">home</span>
+                            <h2 class="text-[--white-color] text-[16px] font-[500]">Home</h2>
+                        </div>
+                        <a href="./shorts.html">
+                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                                <span class="material-symbols-outlined text-[30px] text-[--white-color]">iframe</span>
+                                <h2 class="text-[--white-color] text-[16px] font-[500]">Shorts</h2>
+                            </div>
+                        </a>
+                        <a href="./subscribe.html"> <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <span
+                                class="material-symbols-outlined text-[30px] font-[100] text-[--white-color]">subscriptions</span>
+                            <h2 class="text-[--white-color] text-[16px] font-[500]">Subscriptions</h2>
+                        </div></a>
+                        <hr>
+                        <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <h2 class="text-[--white-color] text-[20px] font-[500]">You</h2>
+                            <span class="material-symbols-outlined text-[--white-color]">chevron_right</span>
+                        </div>
+                        <a href="./channel.html">
+                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                                <span
+                                    class="material-symbols-outlined text-[30px] font-[100] text-[--white-color]">switch_account</span>
+                                <h2 class="text-[--white-color] text-[16px] font-[500]">Channel</h2>
+                            </div>
+                        </a>
+                        <a href="history.html"><div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <span
+                                class="material-symbols-outlined text-[30px] font-[100] text-[--white-color]">device_reset</span>
+                            <h2 class="text-[--white-color] text-[16px] font-[500]">History</h2>
+                        </div></a>
+                        <a href="playlist.html"><div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <span
+                                class="material-symbols-outlined text-[30px] font-[100] text-[--white-color]">short_text</span>
+                            <h2 class="text-[--white-color] text-[16px] font-[500]">Playlist</h2>
+                        </div></a>
+                        <a href="liked.html">
+                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                                <span
+                                    class="material-symbols-outlined text-[30px] font-[100] text-[--white-color]">slideshow</span>
+                                <h2 class="text-[--white-color] text-[16px] font-[500]">Your video</h2>
+                            </div>
+                        </a>
+                        <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <span
+                                class="material-symbols-outlined text-[30px] font-[100] text-[--white-color]">schedule</span>
+                            <h2 class="text-[--white-color] text-[16px] font-[500]">Watch later</h2>
+                        </div>
+                        <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <span
+                                class="material-symbols-outlined text-[30px] font-[100] text-[--white-color]">thumb_up</span>
+                            <h2 class="text-[--white-color] text-[16px] font-[500]">Liked</h2>
+                        </div>
+                        <a href="index.html">
+                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                                <span
+                                    class="material-symbols-outlined text-[30px] font-[100] text-[--white-color]">download</span>
+                                <h2 class="text-[--white-color] text-[16px] font-[500]">Downloaded</h2>
+                            </div>
+                        </a>
+                        <hr>
+                    </div>
+                    <div class="w-full h-[404px] flex flex-col justify-between">
+                        <div
+                            class="w-full rounded-lg hover:bg-[--gray-color] mt-[.5rem] h-[40px] flex items-center pl-4 gap-4">
+                            <h2 class="text-[--white-color] text-[20px] font-[500]">Subscriptions</h2>
+                        </div>
+
+                        <a href="subscribed.html">
+                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                                <div class="w-[24px] h-[24px] rounded-full bg-[purple]"></div>
+                                <h2 class="text-[--white-color] text-[16px] font-[500]">Akhror Web</h2>
+                            </div>
+                        </a>
+                        <a href="subscribed.html">
+                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                                <div class="w-[24px] h-[24px] rounded-full bg-[purple]"></div>
+                                <h2 class="text-[--white-color] text-[16px] font-[500]">Akhror Web</h2>
+                            </div>
+                        </a>
+                        <a href="subscribed.html">
+                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                                <div class="w-[24px] h-[24px] rounded-full bg-[purple]"></div>
+                                <h2 class="text-[--white-color] text-[16px] font-[500]">Akhror Web</h2>
+                            </div>
+                        </a>
+                        <a href="subscribed.html">
+                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                                <div class="w-[24px] h-[24px] rounded-full bg-[purple]"></div>
+                                <h2 class="text-[--white-color] text-[16px] font-[500]">Akhror Web</h2>
+                            </div>
+                        </a>
+                        <a href="subscribed.html">
+                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                                <div class="w-[24px] h-[24px] rounded-full bg-[purple]"></div>
+                                <h2 class="text-[--white-color] text-[16px] font-[500]">Akhror Web</h2>
+                            </div>
+                        </a>
+                        <a href="subscribed.html">
+                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                                <div class="w-[24px] h-[24px] rounded-full bg-[purple]"></div>
+                                <h2 class="text-[--white-color] text-[16px] font-[500]">Akhror Web</h2>
+                            </div>
+                        </a>
+                        <a href="subscribed.html">
+                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                                <div class="w-[24px] h-[24px] rounded-full bg-[purple]"></div>
+                                <h2 class="text-[--white-color] text-[16px] font-[500]">Akhror Web</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="w-full h-[404px] flex flex-col justify-between">
+                        <hr>
+                        <div
+                            class="w-full rounded-lg hover:bg-[--gray-color] mt-[.5rem] h-[40px] flex items-center pl-4 gap-4">
+                            <h2 class="text-[--white-color] text-[20px] font-[500]">Navigator</h2>
+                        </div>
+                        <a href="trend.html">
+                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                                <span
+                                    class="material-symbols-outlined text-[--white-color] font-[30px]">local_fire_department</span>
+                                <h2 class="text-[--white-color] text-[15px] font-[500]">Trend</h2>
+                            </div>
+                        </a>
+                        <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <span class="material-symbols-outlined text-[--white-color] font-[30px]">music_note</span>
+                            <h2 class="text-[--white-color] text-[15px] font-[500]">Music</h2>
+                        </div>
+                        <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <span class="material-symbols-outlined text-[--white-color] font-[30px]">connected_tv</span>
+                            <h2 class="text-[--white-color] text-[15px] font-[500]">Stream</h2>
+                        </div>
+                        <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <span class="material-symbols-outlined text-[--white-color] font-[30px]">news</span>
+                            <h2 class="text-[--white-color] text-[15px] font-[500]">News</h2>
+                        </div>
+                        <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <span class="material-symbols-outlined text-[--white-color] font-[30px]">emoji_events</span>
+                            <h2 class="text-[--white-color] text-[15px] font-[500]">Sport</h2>
+                        </div>
+                        <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <span class="material-symbols-outlined text-[--white-color] font-[30px]">lightbulb</span>
+                            <h2 class="text-[--white-color] text-[15px] font-[500]">Education</h2>
+                        </div>
+                        <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <span class="material-symbols-outlined text-[--white-color] font-[30px]">styler</span>
+                            <h2 class="text-[--white-color] text-[15px] font-[500]">Fashion and beauty</h2>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="w-full h-[404px] flex flex-col justify-between">
+                        <div
+                            class="w-full rounded-lg hover:bg-[--gray-color] mt-[.5rem] h-[40px] flex items-center pl-4 gap-4">
+                            <h2 class="text-[--white-color] text-[20px] font-[500]">Other possibilities</h2>
+                        </div>
+                        <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <span class="material-symbols-outlined text-[red] font-[30px]">video_camera_front</span>
+                            <h2 class="text-[--white-color] text-[15px] font-[500]">Creative studio</h2>
+                        </div>
+                        <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <span class="material-symbols-outlined text-[red] font-[30px]">child_care</span>
+                            <h2 class="text-[--white-color] text-[15px] font-[500]">YouTube Kids</h2>
+                        </div>
+                        <hr>
+                        <a href="settings.html">
+                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                                <span class="material-symbols-outlined text-[--white-color] font-[30px]">settings</span>
+                                <h2 class="text-[--white-color] text-[15px] font-[500]">Settings</h2>
+                            </div>
+                        </a>
+                        <a href="problem.html">
+                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                                <span class="material-symbols-outlined text-[--white-color] font-[30px]">flag</span>
+                                <h2 class="text-[--white-color] text-[15px] font-[500]">Complaints</h2>
+                            </div>
+                        </a>
+                        <a href="help.html">
+                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                                <span class="material-symbols-outlined text-[--white-color] font-[30px]">help</span>
+                                <h2 class="text-[--white-color] text-[15px] font-[500]">Reference</h2>
+                            </div>
+                        </a>
+                        <a href="send.html">
+                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                                <span class="material-symbols-outlined text-[--white-color] font-[30px]">feedback</span>
+                                <h2 class="text-[--white-color] text-[15px] font-[500]">Post a review</h2>
+                            </div>
+                        </a>
+                        <hr>
+                    </div>
+                    <div class="w-full h-[300px] flex flex-col p-4 justify-between">
+                        <h2 class="text-[--gray-color] text-[14px]">О сервисеПрессе <br>Авторские права <br>Связаться с
+                            намиАвторам <br> Рекламодателям <br>Разработчикам</h2>
+                        <h3 class="text-[--gray-color] text-[14px]">Условия использования <br>Конфиденциальность
+                            <br>Правила
+                            и безопасность <br>Как работает YouTube <br>Тестирование новых функций
+                        </h3>
+                        <p class="text-[--gray-color] text-[14px]">&copy; 2024 Google LLC</p>
+                    </div>
+                </div>
+                <div class="w-[85%] h-auto overflow-hidden ml-[19rem] no-scrollbar">
+                    <div class="w-full h-[600px] flex flex-col">
+                        <div class="w-[1200px] h-[20px] flex items-center justify-between">
+                            <h2 class="font-[700] text-[--white-color] text-[25px]"><span
+                                    class=" material-symbols-outlined">download</span> Downloaded</h2>
+                            <h3 class="text-[dodgerblue] text-[600] text-[20px]">Download settings</h3>
+                        </div>
+                        <div class="w-[1200px] h-[380px] flex items-center gap-4">
+                            <div class="w-[210px] h-[280px] justify-evenly flex flex-col">
+                                <img class="w-[210px] h-[118px] rounded-xl"
+                                    src="https://i.ytimg.com/vi/OXGznpKZ_sA/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCuMPw7_1YfgJVW10GW63QXXDSP1Q"
+                                    alt="">
+                                <div class="flex items-center justify-between">
+                                    <h1 class="text-[--white-color] text-[14px] font-[600]">CSS Tutorial - Full Course
+                                        for <br> Beginners</h1>
+                                    <span
+                                        class="material-symbols-outlined text-[--white-color] text-[22px]">more_vert</span>
+                                </div>
+                                <div class="text-[--gray-color] text-[12px]">
+                                    freeCodeCamp.org <br>
+                                    1,7 млн просмотров <br>
+                                    1 год назад <br>
+                                </div>
+                                <button class="px-2 w-[80px] py-1 bg-[--gray-color] text-[12px] rounded-lg">Download</button>
+                            </div>
+                            <div class="w-[210px] h-[280px] justify-evenly flex flex-col">
+                                <img class="w-[210px] h-[118px] rounded-xl"
+                                    src="https://i.ytimg.com/vi/OXGznpKZ_sA/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCuMPw7_1YfgJVW10GW63QXXDSP1Q"
+                                    alt="">
+                                <div class="flex items-center justify-between">
+                                    <h1 class="text-[--white-color] text-[14px] font-[600]">CSS Tutorial - Full Course
+                                        for <br> Beginners</h1>
+                                    <span
+                                        class="material-symbols-outlined text-[--white-color] text-[22px]">more_vert</span>
+                                </div>
+                                <div class="text-[--gray-color] text-[12px]">
+                                    freeCodeCamp.org <br>
+                                    1,7 млн просмотров <br>
+                                    1 год назад <br>
+                                </div>
+                                <button class="px-2 w-[80px] py-1 bg-[--gray-color] text-[12px] rounded-lg">Download</button>
+                            </div>
+                            <div class="w-[210px] h-[280px] justify-evenly flex flex-col">
+                                <img class="w-[210px] h-[118px] rounded-xl"
+                                    src="https://i.ytimg.com/vi/OXGznpKZ_sA/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCuMPw7_1YfgJVW10GW63QXXDSP1Q"
+                                    alt="">
+                                <div class="flex items-center justify-between">
+                                    <h1 class="text-[--white-color] text-[14px] font-[600]">CSS Tutorial - Full Course
+                                        for <br> Beginners</h1>
+                                    <span
+                                        class="material-symbols-outlined text-[--white-color] text-[22px]">more_vert</span>
+                                </div>
+                                <div class="text-[--gray-color] text-[12px]">
+                                    freeCodeCamp.org <br>
+                                    1,7 млн просмотров <br>
+                                    1 год назад <br>
+                                </div>
+                                <button class="px-2 w-[80px] py-1 bg-[--gray-color] text-[12px] rounded-lg">Download</button>
+                            </div>
+                            <div class="w-[210px] h-[280px] justify-evenly flex flex-col">
+                                <img class="w-[210px] h-[118px] rounded-xl"
+                                    src="https://i.ytimg.com/vi/OXGznpKZ_sA/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCuMPw7_1YfgJVW10GW63QXXDSP1Q"
+                                    alt="">
+                                <div class="flex items-center justify-between">
+                                    <h1 class="text-[--white-color] text-[14px] font-[600]">CSS Tutorial - Full Course
+                                        for <br> Beginners</h1>
+                                    <span
+                                        class="material-symbols-outlined text-[--white-color] text-[22px]">more_vert</span>
+                                </div>
+                                <div class="text-[--gray-color] text-[12px]">
+                                    freeCodeCamp.org <br>
+                                    1,7 млн просмотров <br>
+                                    1 год назад <br>
+                                </div>
+                                <button class="px-2 w-[80px] py-1 bg-[--gray-color] text-[12px] rounded-lg">Download</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <script
+        src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+</body>
+
+</html>

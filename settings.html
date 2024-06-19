@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <style>
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="max-w-full h-[1356px] bg-[--black-color]">
+        <nav class="w-full h-full flex flex-col">
+            <div class="w-full h-[56px] flex items-center p-[1rem] bg-[--black-color] justify-between z-10 fixed">
+                <div class="flex items-center w-[169px] flex justify-between h-[56px] ">
+                    <a href="./menu.html"><span
+                            class="material-symbols-outlined text-[35px] text-[--white-color]">menu</span></a>
+                    <button class="flex items-center font-[500] text-[25px] text-[--white-color]"><img
+                            src="./Assets/logo.png" class="w-[35px] h-[35px]" alt="">YouTube</button>
+                </div>
+                <div class="flex items-center justify-center h-[40px] w-[732px] ml-[5rem]">
+                    <div class="flex items-center w-[640px] h-[40px] ml-[40px]">
+                        <button class="w-[536px] h-[42px] flex">
+                            <input
+                                class="bg-[--black-color] h-[42px] w-[90%] text-[--white-color] rounded-l-full border border-[--gray-color] font-mono"
+                                type="search" placeholder="Введите вопрос">
+                            <span
+                                class=" material-symbols-outlined w-[10%] h-[42px] grid items-center border border-[--gray-color] text-[--white-color] ">keyboard</span>
+                        </button>
+                        <button>
+                            <span
+                                class="material-symbols-outlined w-[64px] h-[42px] border bg-[--gray-color] border-[--gray-color] rounded-r-full grid items-center text-[--white-color] ">search</span>
+                        </button>
+                    </div>
+                    <button>
+                        <span
+                            class="material-symbols-outlined w-[40px] h-[40px] rounded-full bg-[--gray-color] grid items-center text-[--white-color]">mic</span>
+                    </button>
+                </div>
+                <div class="flex items-center justify-between w-[156px] h-[40px]">
+                    <span
+                        class="material-symbols-outlined w-[40px] h-[40px] flex items-center justify-center
+                    . bg-[--black-color] border border-[--black-color] rounded-full text-[--white-color] hover:bg-[--gray-color]">video_call</span>
+                    <span
+                        class="material-symbols-outlined w-[40px] h-[40px] flex items-center justify-center
+                    . bg-[--black-color] border border-[--black-color] rounded-full text-[--white-color] hover:bg-[--gray-color]">notifications</span>
+                    <span
+                        class="w-[40px] h-[40px] rounded-full bg-[orange] text-[25px] text-center text-[--white-color]">J</span>
+                </div>
+            </div>
+            <div class="w-full bg-[--black-color] h-full justify-between mt-[4rem] flex">
+                <div class="w-[15%] flex fixed flex-col bg-[--black-color] h-screen overflow-auto no-scrollbar">
+                    <div class="w-full h-[404px] flex flex-col justify-between">
+                        <h2 class="text-[--gray-color] text-[25px] ml-4 font-[700]">Settings</h2>
+                        <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <h2 class="text-[--white-color] text-[16px] font-[500]">Account</h2>
+                        </div>
+                        <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <h2 class="text-[--white-color] text-[16px] font-[500]">Notifications</h2>
+                        </div>
+                        <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <h2 class="text-[--white-color] text-[16px] font-[500]">Playback</h2>
+                        </div>
+                        <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <h2 class="text-[--white-color] text-[16px] font-[500]">Downloading content</h2>
+                        </div>
+                        <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <h2 class="text-[--white-color] text-[16px] font-[500]">Confidentiality</h2>
+                        </div>
+                        <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <h2 class="text-[--white-color] text-[16px] font-[500]">Related apps</h2>
+                        </div>
+                        <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <h2 class="text-[--white-color] text-[16px] font-[500]">Calculations and payments</h2>
+                        </div>
+                        <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <h2 class="text-[--white-color] text-[16px] font-[500]">Advanced settings</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[85%] h-auto mt-[3rem] overflow-hidden ml-[19rem] no-scrollbar">
+                    <div class="w-[1200px] justify-between h-[180px] flex items-center">
+                        <div class="w-[720px] h-full flex flex-col ">
+                            <h1 class="text-[--white-color] text-[22px] font-[700]">Account</h1>
+                            <p class="text-[--white-color] text-[25px] mt-[1rem]">Add information about yourself and access YouTube features</p>
+                            <p class="text-[--gray-color] text-[18px] mt-[.5rem]">You are logged in to your account javlonabdumajidov14@gmail.com</p>
+                        </div>
+                        <img class="w-[180px] h-[180px] rounded-full" src="./Assets/channels4_profile(4).jpg" alt="">
+                    </div>
+                    <hr class="mt-8">
+                    <div class="flex flex-col w-[1200px] h-[679px] gap-4 mt-8">
+                        <h1 class="font-[700] text-[--white-color] text-[22px]">Your channel video</h1>
+                        <p class="text-[--gray-color] text-[14px]">To upload videos, leave comments, create playlists, and use other YouTube features, you need to create a channel.</p>
+                        <div class="h-[200px] w-[400px] flex gap-[7rem] mt-4">
+                            <h1 class="text-[--white-color] text-[18px] font-[700]">Channel</h1>
+                            <div class="w-[600px] text-[18px] flex flex-col">
+                                <div class="flex items-center gap-4">
+                                    <div class="w-[60px] h-[60px] text-[25px] bg-[orange] rounded-full flex items-center justify-center text-[--white-color] ">J</div>
+                                    <h2 class="text-[--white-color] text-[16px]">Javlon Abdumajidov</h2>
+                                </div>
+                                <p class="text-[dodgerblue] mt-4 text-[14px]">Статус канала и доступные функции
+                                    Управление каналами 
+                                    Перейти к расширенным настройкам</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </nav>
+    </header>
+
+    <script
+        src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+</body>
+
+</html>
