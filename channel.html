@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Channel</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="input.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -14,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="app.js"></script>
     <style>
         .no-scrollbar::-webkit-scrollbar {
             display: none;
@@ -27,104 +29,122 @@
 </head>
 
 <body>
-    <header class="max-w-full h-[1356px] bg-[--black-color]">
+    <header class="max-w-[1485px] max-[769px]:h-[4800px] h-[1356px] bg-[--black-color]">
         <nav class="w-full h-full flex flex-col">
-            <div class="w-full h-[56px] flex items-center p-[1rem] bg-[--black-color] justify-between z-10 fixed">
-                <div class="flex items-center w-[169px] flex justify-between h-[56px] ">
-                    <a href="./menu.html"><span
-                            class="material-symbols-outlined text-[35px] text-[--white-color]">menu</span></a>
-                    <button class="flex items-center font-[500] text-[25px] text-[--white-color]"><img
+            <div class="w-full h-[56px] max-[1633px]:w-[1623px] max-[1623px]:w-[1613px] max-[1613px]:w-[1603px] max-[1603px]:w-[1593px] max-[1593px]:w-[1583px] max-[1583px]:w-[1573px] max-[1563px]:w-[1543px] max-[1543px]:w-[1533px] max-[1533px]:w-[1523px] max-[1523px]:w-[1513px] max-[1513px]:w-[1503px] max-[1503px]:w-[1493px] max-[1493px]:w-[1483px] max-[1483px]:w-[1473px] max-[1473px]:w-[1463px] max-[1463px]:w-[1453px] max-[1453px]:w-[1443px] max-[1443px]:w-[1433px] max-[1433px]:w-[1423px] max-[1423px]:w-[1413px] max-[1413px]:w-[1403px] max-[1403px]:w-[1393px] max-[1393px]:w-[1383px] max-[1383px]:w-[1373px] max-[1373px]:w-[1363px] max-[1363px]:w-[1353px] max-[1353px]:w-[1343px] max-[1343px]:w-[1333px] max-[1333px]:w-[1323px] max-[1323px]:w-[1313px] max-[1313px]:w-[1303px] max-[1303px]:w-[1293px] max-[1293px]:w-[1283px] max-[1283px]:w-[1273px] max-[1273px]:w-[1263px] max-[1263px]:w-[1253px] max-[1253px]:w-[1243px] max-[1243px]:w-[1233px] max-[1233px]:w-[1223px] max-[1223px]:w-[1213px] max-[1213px]:w-[1203px] max-[1203px]:w-[1193px] max-[1193px]:w-[1183px] max-[1183px]:w-[1173px] max-[1173px]:w-[1163px] max-[1163px]:w-[1153px] max-[1153px]:w-[1143px] max-[1143px]:w-[1133px] max-[1133px]:w-[1123px] max-[1123px]:w-[1113px] max-[1113px]:w-[1103px]:w-[1093px] max-[1093px]:w-[1083px] max-[1081px]:w-[1071px] max-[1071px]:w-[1061px] max-[1061px]:w-[1051px] max-[1051px]:w-[1041px] max-[1041px]:w-[1031px] max-[1031px]:w-[1021px] max-[1021px]:w-[1011px] max-[1011px]:w-[1001px] max-[1001px]:w-[991px] max-[991px]:w-[981px] max-[981px]:w-[971px] max-[971px]:w-[961px] max-[961px]:w-[951px] max-[951px]:w-[941px] max-[941px]:w-[931px] max-[931px]:w-[921px] max-[921px]:w-[911px] max-[911px]:w-[901px] max-[901px]:w-[891px] max-[891px]:w-[881px] max-[881px]:w-[871px] max-[871px]:w-[861px] max-[861px]:w-[851px] max-[851px]:w-[841px] max-[841px]:w-[831px] max-[831px]:w-[821px] max-[821px]:w-[811px] max-[811px]:w-[801px] max-[801px]:w-[791px] max-[791px]:w-[781px] max-[781px]:w-[771px] max-[771px]:w-[761px] max-[1094px]:w-[1083px] flex items-center p-[1rem] bg-[--black-color] justify-between z-10 fixed">
+                <div class="flex items-center w-[169px] max-[1190px]:w-[149px] max-[1180px]:w-[129px] max-[1170px]:w-[109px] flex justify-between h-[56px] max-[1190px]:h-[48px] max-[1180px]:h-[40px] max-[1170px]:h-[32px]">
+                    <a href="menu.html"><span
+                            class="material-symbols-outlined text-[35px] max-[1190px]:text-[32px] max-[1180px]:text-[29px] max-[1170px]:text-[26px] text-[--white-color]">menu</span></a>
+                    <button class="flex items-center font-[500] text-[25px] max-[1190px]:text-[22px] max-[1180px]:text-[19px] max-[1170px]:text-[17px] text-[--white-color]"><img
                             src="./Assets/logo.png" class="w-[35px] h-[35px]" alt="">YouTube</button>
                 </div>
-                <div class="flex items-center justify-center h-[40px] w-[732px] ml-[5rem]">
-                    <div class="flex items-center w-[640px] h-[40px] ml-[40px]">
-                        <button class="w-[536px] h-[42px] flex">
+                <div class="flex items-center justify-center h-[40px] max-[1190px]:w-[700px] max-[1180px]:w-[670px] max-[1170px]:w-[640px] max-[997px]:w-[620px] max-[950px]:w-[600px] max-[1180px]:h-[30px] w-[732px] max-[927px]:w-[520px] max-[840px]:w-[470px] max-[830px]:ml-[-2rem] ml-[5rem] max-[1190px]:ml-[3rem] max-[1180px]:ml-[2rem] max-[1170px]:ml-0">
+                    <div class="flex items-center w-[640px] max-[1190px]:h-[37px] max-[1190px]:ml-[30px] max-[1180px]:ml-[20px] max-[1170px]:ml-0 max-[1180px]:h-[34px] max-[1170px]:h-[30px] max-[927px]:ml-[4rem] h-[40px] ml-[40px]">
+                        <button class="w-[536px] h-[42px] flex max-[1190px]:h-[37px] max-[1180px]:h-[34px] max-[1170px]:h-[30px] max-[997px]:w-[500px] max-[927px]:w-[350px] max-[840px]:w-[300px]">
                             <input
-                                class="bg-[--black-color] h-[42px] w-[90%] text-[--white-color] rounded-l-full border border-[--gray-color] font-mono"
+                                class="bg-[--black-color] max-[1190px]:h-[37px] max-[1180px]:h-[34px] max-[1170px]:h-[30px] h-[42px] w-[90%] text-[--white-color] rounded-l-full border border-[--gray-color] font-mono max-[1190px]:text-[14px] max-[1180px]:text-[13px] max-[1170px]:text-[12px]"
                                 type="search" placeholder="Введите вопрос">
                             <span
-                                class=" material-symbols-outlined w-[10%] h-[42px] grid items-center border border-[--gray-color] text-[--white-color] ">keyboard</span>
+                                class=" material-symbols-outlined w-[10%] max-[1190px]:h-[37px] max-[1180px]:h-[34px] max-[1170px]:h-[30px] h-[42px] grid max-[1190px]:text-[18px] max-[1180px]:text-[17px] max-[1170px]:text-[16px] items-center border border-[--gray-color] text-[--white-color] ">keyboard</span>
                         </button>
                         <button>
                             <span
-                                class="material-symbols-outlined w-[64px] h-[42px] border bg-[--gray-color] border-[--gray-color] rounded-r-full grid items-center text-[--white-color] ">search</span>
+                                class="material-symbols-outlined max-[1190px]:text-[18px] max-[1180px]:text-[17px] max-[1170px]:text-[16px] w-[64px] h-[42px] max-[1190px]:h-[37px] max-[1180px]:h-[34px] max-[1170px]:h-[30px] border bg-[--gray-color] border-[--gray-color] rounded-r-full grid items-center text-[--white-color] ">search</span>
                         </button>
                     </div>
                     <button>
                         <span
-                            class="material-symbols-outlined w-[40px] h-[40px] rounded-full bg-[--gray-color] grid items-center text-[--white-color]">mic</span>
+                            class="material-symbols-outlined max-[1190px]:text-[18px] max-[1180px]:text-[17px] max-[1170px]:text-[16px] w-[40px] h-[40px] max-[1190px]:h-[37px] max-[1180px]:h-[34px] max-[1170px]:h-[30px] max-[1190px]:w-[37px] max-[1180px]:w-[34px] max-[1170px]:w-[30px] rounded-full bg-[--gray-color] grid items-center text-[--white-color]">mic</span>
                     </button>
                 </div>
-                <div class="flex items-center justify-between w-[156px] h-[40px]">
+                <div class="flex items-center justify-between w-[156px] max-[1200px]:w-[146px] max-[1190px]:w-[136px] max-[1180px]:w-[126px] max-[1170px]:w-[116px] h-[40px]">
+                    <span
+                        class="material-symbols-outlined w-[40px] max-[1190px]:text-[18px] max-[1180px]:text-[17px] max-[1170px]:text-[16px] h-[40px] flex items-center justify-center
+                    . bg-[--black-color] border border-[--black-color] rounded-full text-[--white-color] hover:bg-[--gray-color] max-[1190px]:text-[18px] max-[1180px]:text-[17px] max-[1170px]:text-[16px]">video_call</span>
                     <span
                         class="material-symbols-outlined w-[40px] h-[40px] flex items-center justify-center
-                    . bg-[--black-color] border border-[--black-color] rounded-full text-[--white-color] hover:bg-[--gray-color]">video_call</span>
+                    . bg-[--black-color] border border-[--black-color] rounded-full text-[--white-color] hover:bg-[--gray-color] max-[1190px]:text-[18px] max-[1180px]:text-[17px] max-[1170px]:text-[16px]">notifications</span>
                     <span
-                        class="material-symbols-outlined w-[40px] h-[40px] flex items-center justify-center
-                    . bg-[--black-color] border border-[--black-color] rounded-full text-[--white-color] hover:bg-[--gray-color]">notifications</span>
-                    <span
-                        class="w-[40px] h-[40px] rounded-full bg-[orange] text-[25px] text-center text-[--white-color]">J</span>
+                        class="w-[40px] h-[40px] rounded-full max-[1190px]:w-[36px] max-[1180px]:w-[30px] max-[1170px]:w-[28px] max-[1190px]:h-[36px] max-[1180px]:h-[30px] max-[1170px]:h-[28px] bg-[orange] text-[25px] text-center text-[--white-color] max-[1190px]:text-[17px] max-[1170px]:text-[16px]">J</span>
                 </div>
             </div>
-            <div class="w-full bg-[--black-color] h-full justify-between mt-[4rem] flex">
-                <div class="w-[15%] flex fixed flex-col bg-[--black-color] h-screen overflow-auto no-scrollbar">
+            <div class="w-full relative bg-[--black-color] h-full justify-between mt-[4rem] flex">
+                <div class="w-[15%] max-[1313px]:hidden flex fixed flex-col bg-[--black-color] h-screen overflow-auto no-scrollbar">
                     <div class="w-full h-[544px] flex flex-col justify-between">
-                        <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
-                            <span class="material-symbols-outlined text-[30px] text-[--white-color]">home</span>
-                            <h2 class="text-[--white-color] text-[16px] font-[500]">Home</h2>
-                        </div>
+                        <a href="index.html">
+                            <div
+                                class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                                <span class="material-symbols-outlined text-[30px] text-[--white-color]">home</span>
+                                <h2 class="text-[--white-color] text-[16px] font-[500]">Home</h2>
+                            </div>
+                        </a>
                         <a href="./shorts.html">
-                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <div
+                                class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
                                 <span class="material-symbols-outlined text-[30px] text-[--white-color]">iframe</span>
                                 <h2 class="text-[--white-color] text-[16px] font-[500]">Shorts</h2>
                             </div>
                         </a>
-                        <a href="./subscribe.html"> <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
-                            <span
-                                class="material-symbols-outlined text-[30px] font-[100] text-[--white-color]">subscriptions</span>
-                            <h2 class="text-[--white-color] text-[16px] font-[500]">Subscriptions</h2>
-                        </div></a>
+                        <a href="./subscribe.html">
+                            <div
+                                class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                                <span
+                                    class="material-symbols-outlined text-[30px] font-[100] text-[--white-color]">subscriptions</span>
+                                <h2 class="text-[--white-color] text-[16px] font-[500]">Subscriptions</h2>
+                            </div>
+                        </a>
                         <hr>
                         <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
                             <h2 class="text-[--white-color] text-[20px] font-[500]">You</h2>
                             <span class="material-symbols-outlined text-[--white-color]">chevron_right</span>
                         </div>
-                        <a href="./index.html">
-                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                        <a href="./channel.html">
+                            <div
+                                class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
                                 <span
                                     class="material-symbols-outlined text-[30px] font-[100] text-[--white-color]">switch_account</span>
                                 <h2 class="text-[--white-color] text-[16px] font-[500]">Channel</h2>
                             </div>
                         </a>
-                        <a href="history.html"><div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
-                            <span
-                                class="material-symbols-outlined text-[30px] font-[100] text-[--white-color]">device_reset</span>
-                            <h2 class="text-[--white-color] text-[16px] font-[500]">History</h2>
-                        </div></a>
-                        <a href="playlist.html"><div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
-                            <span
-                                class="material-symbols-outlined text-[30px] font-[100] text-[--white-color]">short_text</span>
-                            <h2 class="text-[--white-color] text-[16px] font-[500]">Playlist</h2>
-                        </div></a>
-                        <a href="liked.html">
-                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                        <a href="history.html">
+                            <div
+                                class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                                <span
+                                    class="material-symbols-outlined text-[30px] font-[100] text-[--white-color]">device_reset</span>
+                                <h2 class="text-[--white-color] text-[16px] font-[500]">History</h2>
+                            </div>
+                        </a>
+                        <a href="playlist.html">
+                            <div
+                                class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                                <span
+                                    class="material-symbols-outlined text-[30px] font-[100] text-[--white-color]">short_text</span>
+                                <h2 class="text-[--white-color] text-[16px] font-[500]">Playlist</h2>
+                            </div>
+                        </a>
+                            <div
+                                class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
                                 <span
                                     class="material-symbols-outlined text-[30px] font-[100] text-[--white-color]">slideshow</span>
                                 <h2 class="text-[--white-color] text-[16px] font-[500]">Your video</h2>
                             </div>
-                        </a>
-                        <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
-                            <span
-                                class="material-symbols-outlined text-[30px] font-[100] text-[--white-color]">schedule</span>
-                            <h2 class="text-[--white-color] text-[16px] font-[500]">Watch later</h2>
-                        </div>
-                        <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
-                            <span
-                                class="material-symbols-outlined text-[30px] font-[100] text-[--white-color]">thumb_up</span>
-                            <h2 class="text-[--white-color] text-[16px] font-[500]">Liked</h2>
-                        </div>
-                        <a href="download.html">
+                        <a href="liked.html">
                             <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                                <span
+                                    class="material-symbols-outlined text-[30px] font-[100] text-[--white-color]">schedule</span>
+                                <h2 class="text-[--white-color] text-[16px] font-[500]">Watch later</h2>
+                            </div>
+                        </a>
+                        <a href="liked.html">
+                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                                <span
+                                    class="material-symbols-outlined text-[30px] font-[100] text-[--white-color]">thumb_up</span>
+                                <h2 class="text-[--white-color] text-[16px] font-[500]">Liked</h2>
+                            </div>
+                        </a>
+                        <a href="download.html">
+                            <div
+                                class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
                                 <span
                                     class="material-symbols-outlined text-[30px] font-[100] text-[--white-color]">download</span>
                                 <h2 class="text-[--white-color] text-[16px] font-[500]">Downloaded</h2>
@@ -139,43 +159,50 @@
                         </div>
 
                         <a href="subscribed.html">
-                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <div
+                                class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
                                 <div class="w-[24px] h-[24px] rounded-full bg-[purple]"></div>
                                 <h2 class="text-[--white-color] text-[16px] font-[500]">Akhror Web</h2>
                             </div>
                         </a>
                         <a href="subscribed.html">
-                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <div
+                                class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
                                 <div class="w-[24px] h-[24px] rounded-full bg-[purple]"></div>
                                 <h2 class="text-[--white-color] text-[16px] font-[500]">Akhror Web</h2>
                             </div>
                         </a>
                         <a href="subscribed.html">
-                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <div
+                                class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
                                 <div class="w-[24px] h-[24px] rounded-full bg-[purple]"></div>
                                 <h2 class="text-[--white-color] text-[16px] font-[500]">Akhror Web</h2>
                             </div>
                         </a>
                         <a href="subscribed.html">
-                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <div
+                                class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
                                 <div class="w-[24px] h-[24px] rounded-full bg-[purple]"></div>
                                 <h2 class="text-[--white-color] text-[16px] font-[500]">Akhror Web</h2>
                             </div>
                         </a>
                         <a href="subscribed.html">
-                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <div
+                                class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
                                 <div class="w-[24px] h-[24px] rounded-full bg-[purple]"></div>
                                 <h2 class="text-[--white-color] text-[16px] font-[500]">Akhror Web</h2>
                             </div>
                         </a>
                         <a href="subscribed.html">
-                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <div
+                                class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
                                 <div class="w-[24px] h-[24px] rounded-full bg-[purple]"></div>
                                 <h2 class="text-[--white-color] text-[16px] font-[500]">Akhror Web</h2>
                             </div>
                         </a>
                         <a href="subscribed.html">
-                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <div
+                                class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
                                 <div class="w-[24px] h-[24px] rounded-full bg-[purple]"></div>
                                 <h2 class="text-[--white-color] text-[16px] font-[500]">Akhror Web</h2>
                             </div>
@@ -188,7 +215,8 @@
                             <h2 class="text-[--white-color] text-[20px] font-[500]">Navigator</h2>
                         </div>
                         <a href="trend.html">
-                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <div
+                                class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
                                 <span
                                     class="material-symbols-outlined text-[--white-color] font-[30px]">local_fire_department</span>
                                 <h2 class="text-[--white-color] text-[15px] font-[500]">Trend</h2>
@@ -235,25 +263,29 @@
                         </div>
                         <hr>
                         <a href="settings.html">
-                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <div
+                                class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
                                 <span class="material-symbols-outlined text-[--white-color] font-[30px]">settings</span>
                                 <h2 class="text-[--white-color] text-[15px] font-[500]">Settings</h2>
                             </div>
                         </a>
                         <a href="problem.html">
-                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <div
+                                class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
                                 <span class="material-symbols-outlined text-[--white-color] font-[30px]">flag</span>
                                 <h2 class="text-[--white-color] text-[15px] font-[500]">Complaints</h2>
                             </div>
                         </a>
                         <a href="help.html">
-                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <div
+                                class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
                                 <span class="material-symbols-outlined text-[--white-color] font-[30px]">help</span>
                                 <h2 class="text-[--white-color] text-[15px] font-[500]">Reference</h2>
                             </div>
                         </a>
                         <a href="send.html">
-                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                            <div
+                                class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
                                 <span class="material-symbols-outlined text-[--white-color] font-[30px]">feedback</span>
                                 <h2 class="text-[--white-color] text-[15px] font-[500]">Post a review</h2>
                             </div>
@@ -270,11 +302,64 @@
                         <p class="text-[--gray-color] text-[14px]">&copy; 2024 Google LLC</p>
                     </div>
                 </div>
-                <div class="w-[85%] h-auto overflow-hidden ml-[19rem] no-scrollbar">
+                <div class="w-[100px] max-[1313px]:flex max-[769px]:w-[850px] max-[769px]:h-[75px] hidden max-[1225px]:w-[80px] fixed bottom-0 flex-col bg-[--black-color] max-[890px]:w-[60px] h-screen overflow-auto max-[769px]:mt-[48.8%] max-[769px]:fixed no-scrollbar">
+                    <div class="w-[64px] h-[370px] ml-4 max-[769px]:flex-row z-1000 max-[769px]:w-[700px] max-[769px]:h-[64px] max-[769px]:mt-0 flex flex-col justify-between max-[1190px]:justify-around max-[769px]:justify-between">
+                        <a href="index.html">
+                            <div class="w-[64px] max-[1313px]:mt-8 max-[1230px]:mt-[4rem] max-[1200px]:mt-[5rem] max-[1180px]:mt-[4rem] rounded-lg hover:bg-[--gray-color] max-[769px]:mt-0 max-[1180px]:mt-[-20px] h-[74px] max-[1190px]:h-[64px] max-[1180px]:h-[54px] max-[1170px]:h-[44px] flex flex-col items-center gap-2">
+                                <span class="max-[769px]:text-[27px] material-symbols-outlined mt-3 max-[1190px]:text-[25px] max-[1180px]:text-[20px] text-[30px] text-[--white-color]">home</span>
+                                <h2 class="text-[--white-color] text-[10px] font-[500]">Home</h2>
+                            </div>
+                        </a>
+                        <a href="shorts.html">
+                            <div class="w-[64px] rounded-lg hover:bg-[--gray-color] h-[74px] max-[1190px]:h-[64px] max-[1180px]:h-[54px] max-[1170px]:h-[44px] flex flex-col items-center gap-2">
+                                <span class="max-[769px]:text-[27px] material-symbols-outlined mt-3 max-[1190px]:text-[25px] max-[1180px]:text-[20px] text-[30px] text-[--white-color]">iframe</span>
+                                <h2 class="text-[--white-color] text-[10px] font-[500]">Shorts</h2>
+                            </div>
+                        </a>
+                        <a href="subscribe.html">
+                            <div class="w-[64px] max-[769px]:hidden rounded-lg hover:bg-[--gray-color] h-[74px] max-[1190px]:h-[64px] max-[1180px]:h-[54px] max-[1170px]:h-[44px] flex flex-col items-center gap-2">
+                                <span class="material-symbols-outlined mt-3 max-[1190px]:text-[25px] max-[1180px]:text-[20px] text-[30px] font-[100] text-[--white-color]">subscriptions</span>
+                                <h2 class="text-[--white-color] text-[10px] font-[500]">Subscriptions</h2>
+                            </div>
+                        </a>
+                        <a href="subscribe.html">
+                            <div class="w-[64px] max-[769px]:flex rounded-lg hover:bg-[--gray-color] h-[74px] hidden">
+                                <span class="text-[45px] material-symbols-outlined mt-3 text-[30px] font-[100] text-[--white-color]">Add</span>
+                            </div>
+                        </a>
+                        <div class="w-[64px] rounded-lg hover:bg-[--gray-color] h-[74px] max-[1190px]:h-[64px] max-[1180px]:h-[54px] max-[1170px]:h-[44px] flex flex-col items-center gap-2">
+                            <span class="max-[769px]:text-[27px] material-symbols-outlined mt-3 max-[1190px]:text-[25px] max-[1180px]:text-[20px] text-[30px] text-[--white-color]">slideshow</span>
+                            <h2 class="text-[--white-color] text-[10px] font-[500]">You</h2>
+                        </div>
+                        <a href="download.html">
+                            <div class="w-[64px] rounded-lg hover:bg-[--gray-color] h-[74px] max-[1190px]:h-[64px] max-[1180px]:h-[54px] max-[1170px]:h-[44px] flex flex-col items-center gap-2">
+                                <span class="max-[769px]:text-[27px] material-symbols-outlined mt-3 max-[1190px]:text-[25px] max-[1180px]:text-[20px] text-[30px] font-[100] text-[--white-color]">download</span>
+                                <h2 class="text-[--white-color] text-[10px] font-[500]">Downloaded</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="w-[79.2%] max-[769px]:ml-1 max-[1313px]:w-[95%] max-[1230px]:w-[90%] ml-[19rem] h-[56px] bg-[--black-color] absolute max-[1313px]:ml-[8rem]">
+                    <div class="w-full no-scrollbar max-[769px]:w-[120%] max-[769px]:text-[18px] absolute overflow-auto font-[500] text-[--white-color] h-full flex items-center px-3 gap-3 text-[18px] whitespace-nowrap max-[1360px]:text-[17px] max-[769px]:w-[780px] max-[1260px]:text-[16px] max-[1160px]:text-[15px] max-[1060px]">
+                        <a href="index.html" class="py-1 px-3 rounded-lg border border-[lightgray]">All</a>
+                        <a href="index.html" class="py-1 px-3 rounded-lg border border-[lightgray]">Music</a>
+                        <a href="index.html" class="py-1 px-3 rounded-lg border border-[lightgray]">Video games</a>
+                        <a href="index.html" class="py-1 px-3 rounded-lg border border-[lightgray]">Live stream</a>
+                        <a href="index.html" class="py-1 px-3 rounded-lg border border-[lightgray]">Telenucellae</a>
+                        <a href="index.html" class="py-1 px-3 rounded-lg border border-[lightgray]">Audio book</a>
+                        <a href="index.html" class="py-1 px-3 rounded-lg border border-[lightgray]">Fitness</a>
+                        <a href="index.html" class="py-1 px-3 rounded-lg border border-[lightgray]">Crafts</a>
+                        <a href="index.html" class="py-1 px-3 rounded-lg border border-[lightgray]">Recently published</a>
+                        <a href="index.html" class="py-1 px-3 rounded-lg border border-[lightgray]">Viewing</a>
+                        <a href="index.html" class="py-1 px-3 rounded-lg border border-[lightgray]">New for you</a>
+                    </div>
+                </div>                
+                <div class="w-[85%] max-[1313px]:ml-[7rem] mt-[4rem] h-auto overflow-hidden ml-[19rem] no-scrollbar">
                     <div class="w-[1448px] h-[246px] flex flex-col">
                         <div class="w-full h-[198px] ml-[4rem] flex gap-[2rem]">
                             <div
-                                class="w-[160px] h-[160px] bg-[orange] rounded-full grid text-[--white-color] items-center text-center text-[70px] font-[600]">
+                                class="w-[160px] max-[769px]:ml-[-4rem] h-[160px] max-[1480px]:w-[150px] max-[1480px]:h-[150px] max-[1470px]:w-[140px] max-[1470px]:h-[140px] max-[1460px]:w-[130px] max-[1460px]:h-[130px] bg-[orange] rounded-full grid text-[--white-color] items-center text-center text-[70px] font-[600]">
                                 J</div>
                             <div class="w-[1100px] h-[166px] flex flex-col gap-[.8rem]">
                                 <h1 class="font-[700] text-[--white-color] text-[40px]">Javlon Abdumajidov</h1>
@@ -298,8 +383,8 @@
                             <hr>
                         </div>
                     </div>
-                    <div class="w-[1248px] h-[500px] flex flex-col items-center justify-center gap-[1rem]">
-                        <img class="w-[120px] h-[120px]" src="https://images.unsplash.com/photo-1574169208507-84376144848b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D" alt="">
+                    <div class="w-[1330px] h-[500px] flex flex-col items-center justify-center gap-[1rem] max-[1475px]:w-[1300px] max-[1465px]:w-[1290px] max-[1455px]:w-[1280px] max-[1445px]:w-[1270px] max-[1435px]:w-[1260px] max-[1425px]:w-[1250px] max-[1415px]:w-[1240px] max-[1405px]:w-[1230px] max-[1395px]:w-[1220px] max-[1385px]:w-[1210px] max-[1375px]:w-[1200px] max-[1365px]:w-[1190px] max-[1355px]:w-[1180px] max-[1345px]:w-[1170px] max-[1335px]:w-[1160px] max-[1325px]:w-[1150px] max-[1315px]:w-[1140px] max-[1305px]:w-[1130px] max-[1295px]:w-[1120px] max-[1285px]:w-[1110px] max-[1275px]:w-[1100px] max-[1265px]:w-[1090px] max-[1255px]:w-[1080px] max-[1245px]:w-[1070px] max-[1235px]:w-[1060px] max-[1225px]:w-[1050px] max-[1215px]:w-[1040px] max-[1205px]:w-[1030px] max-[1195px]:w-[1020px] max-[1185px]:w-[1010px] max-[1175px]:w-[1000px] max-[1165px]:w-[990px] max-[1155px]:w-[980px] max-[1145px]:w-[970px] max-[1135px]:w-[960px] max-[1125px]:w-[950px] max-[1115px]:w-[940px] max-[1105px]:w-[930px] max-[1095px]:w-[920px] max-[1085px]:w-[910px] max-[1075px]:w-[900px] max-[1065px]:w-[890px] max-[1055px]:w-[880px] max-[1045px]:w-[870px] max-[1035px]:w-[860px] max-[1025px]:w-[850px] max-[1015px]:w-[840px] max-[1005px]:w-[840px] max-[995px]:w-[830px] max-[985px]:w-[820px] max-[975px]:w-[810px] max-[965px]:w-[800px] max-[955px]:w-[790px] max-[945px]:w-[780px] max-[935px]:w-[770px] max-[925px]:w-[760px] max-[915px]:w-[750px] max-[905px]:w-[740px] max-[895px]:w-[730px] max-[885px]:w-[720px] max-[875px]:w-[710px] max-[865px]:w-[700px] max-[855px]:w-[690px] max-[845px]:w-[680px] max-[835px]:w-[670px] max-[825px]:w-[660px] max-[815px]:w-[650px] max-[805px]:w-[640px] max-[795px]:w-[630px] max-[785px]:w-[620px] max-[775px]:w-[610px]">
+                        <img class="w-[120px] h-[120px] rounded-full" src="https://images.unsplash.com/photo-1574169208507-84376144848b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D" alt="">
                         <h2 class="font-[600] text-[--white-color] text-center text-[16px]">Здесь будет ваш контент <br>
                             Создавайте и загружайте контент из дома или <br> любой точки мира. Все ваши общедоступные <br> видео будут показываться здесь.</h2>
                             <button class="pt-[2px] pb-[2px] pl-[5px] pr-[5px] bg-[--white-color] text-[--black-color] font-[600] rounded-xl">Create</button>
@@ -314,3 +399,6 @@
 </body>
 
 </html>
+
+
+ 

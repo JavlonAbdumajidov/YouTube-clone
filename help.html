@@ -66,13 +66,16 @@
                         class="w-[40px] h-[40px] rounded-full bg-[orange] text-[25px] text-center text-[--white-color]">J</span>
                 </div>
             </div>
-            <div class="w-full bg-[--black-color] h-full justify-between mt-[4rem] flex">
-                <div class="w-[15%] flex fixed flex-col bg-[--black-color] h-screen overflow-auto no-scrollbar">
+            <div class="w-[1690px] bg-[--gray-color] relative h-full justify-between mt-[4rem] flex">
+                <div class="w-[15%] bg-[--gray-color] opacity-10 flex fixed flex-col h-screen overflow-auto no-scrollbar">
                     <div class="w-full h-[544px] flex flex-col justify-between">
-                        <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
-                            <span class="material-symbols-outlined text-[30px] text-[--white-color]">home</span>
-                            <h2 class="text-[--white-color] text-[16px] font-[500]">Home</h2>
-                        </div>
+                        <a href="index.html">
+                            <div
+                                class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                                <span class="material-symbols-outlined text-[30px] text-[--white-color]">home</span>
+                                <h2 class="text-[--white-color] text-[16px] font-[500]">Home</h2>
+                            </div>
+                        </a>
                         <a href="./shorts.html">
                             <div
                                 class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
@@ -117,24 +120,26 @@
                                 <h2 class="text-[--white-color] text-[16px] font-[500]">Playlist</h2>
                             </div>
                         </a>
-                        <a href="liked.html">
                             <div
                                 class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
                                 <span
                                     class="material-symbols-outlined text-[30px] font-[100] text-[--white-color]">slideshow</span>
                                 <h2 class="text-[--white-color] text-[16px] font-[500]">Your video</h2>
                             </div>
+                        <a href="liked.html">
+                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                                <span
+                                    class="material-symbols-outlined text-[30px] font-[100] text-[--white-color]">schedule</span>
+                                <h2 class="text-[--white-color] text-[16px] font-[500]">Watch later</h2>
+                            </div>
                         </a>
-                        <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
-                            <span
-                                class="material-symbols-outlined text-[30px] font-[100] text-[--white-color]">schedule</span>
-                            <h2 class="text-[--white-color] text-[16px] font-[500]">Watch later</h2>
-                        </div>
-                        <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
-                            <span
-                                class="material-symbols-outlined text-[30px] font-[100] text-[--white-color]">thumb_up</span>
-                            <h2 class="text-[--white-color] text-[16px] font-[500]">Liked</h2>
-                        </div>
+                        <a href="liked.html">
+                            <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                                <span
+                                    class="material-symbols-outlined text-[30px] font-[100] text-[--white-color]">thumb_up</span>
+                                <h2 class="text-[--white-color] text-[16px] font-[500]">Liked</h2>
+                            </div>
+                        </a>
                         <a href="download.html">
                             <div
                                 class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
@@ -269,78 +274,20 @@
                                 <h2 class="text-[--white-color] text-[15px] font-[500]">Complaints</h2>
                             </div>
                         </a>
-                        <a href="index.html">
+                        <a href="help.html">
                             <div
                                 class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
                                 <span class="material-symbols-outlined text-[--white-color] font-[30px]">help</span>
                                 <h2 class="text-[--white-color] text-[15px] font-[500]">Reference</h2>
                             </div>
-
-
-                            <!-- Modal toggle -->
-                            <button data-modal-target="static-modal" data-modal-toggle="static-modal"
-                                class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                                type="button">
-                                Toggle modal
-                            </button>
-
-                            <!-- Main modal -->
-                            <div id="static-modal" data-modal-backdrop="static" tabindex="-1" aria-hidden="true"
-                                class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
-                                <div class="relative p-4 w-full max-w-2xl max-h-full">
-                                    <!-- Modal content -->
-                                    <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
-                                        <!-- Modal header -->
-                                        <div
-                                            class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
-                                            <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
-                                                Static modal
-                                            </h3>
-                                            <button type="button"
-                                                class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
-                                                data-modal-hide="static-modal">
-                                                <svg class="w-3 h-3" aria-hidden="true"
-                                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
-                                                    <path stroke="currentColor" stroke-linecap="round"
-                                                        stroke-linejoin="round" stroke-width="2"
-                                                        d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
-                                                </svg>
-                                                <span class="sr-only">Close modal</span>
-                                            </button>
-                                        </div>
-                                        <!-- Modal body -->
-                                        <div class="p-4 md:p-5 space-y-4">
-                                            <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                                                With less than a month to go before the European Union enacts new
-                                                consumer privacy laws for its citizens, companies around the world are
-                                                updating their terms of service agreements to comply.
-                                            </p>
-                                            <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                                                The European Union’s General Data Protection Regulation (G.D.P.R.) goes
-                                                into effect on May 25 and is meant to ensure a common set of data rights
-                                                in the European Union. It requires organizations to notify users as soon
-                                                as possible of high-risk data breaches that could personally affect
-                                                them.
-                                            </p>
-                                        </div>
-                                        <!-- Modal footer -->
-                                        <div
-                                            class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
-                                            <button data-modal-hide="static-modal" type="button"
-                                                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">I
-                                                accept</button>
-                                            <button data-modal-hide="static-modal" type="button"
-                                                class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Decline</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
                         </a>
-                        <div class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
-                            <span class="material-symbols-outlined text-[--white-color] font-[30px]">feedback</span>
-                            <h2 class="text-[--white-color] text-[15px] font-[500]">Post a review</h2>
-                        </div>
+                        <a href="send.html">
+                            <div
+                                class="w-full rounded-lg hover:bg-[--gray-color] h-[40px] flex items-center pl-4 gap-4">
+                                <span class="material-symbols-outlined text-[--white-color] font-[30px]">feedback</span>
+                                <h2 class="text-[--white-color] text-[15px] font-[500]">Post a review</h2>
+                            </div>
+                        </a>
                         <hr>
                     </div>
                     <div class="w-full h-[300px] flex flex-col p-4 justify-between">
@@ -353,7 +300,7 @@
                         <p class="text-[--gray-color] text-[14px]">&copy; 2024 Google LLC</p>
                     </div>
                 </div>
-                <div class="w-[85%] h-auto overflow-hidden ml-[19rem] no-scrollbar">
+                <div class="w-[85%] bg-[--gray-color] opacity-10 h-auto overflow-hidden ml-[19rem] no-scrollbar">
                     <div class="grid grid-cols-4 pl-[1.5rem] gap-4">
                         <div class="flex flex-col w-full h-[293px] justify-between">
                             <div class="w-[326px] h-[183px] rounded-lg">
@@ -677,7 +624,55 @@
                         </div>
                     </div>
                 </div>
-            </div>
+                <div class="absolute  w-full h-[100%] flex-col flex items-end justify-start">
+                        <div class="flex flex-col w-[360px] h-[500px] bg-[--white-color] rounded-lg">
+                            <div class="w-[70%] ml-[6rem] justify-between h-[40px] flex items-center ">
+                                <h2 class="text-[--black-color] text-[30px]">Reference</h2>
+                                <a href="index.html">
+                                    <span class="material-symbols-outlined text-[--black-color] text-[30px]">close</span>
+                                </a>
+                            </div> 
+                            <div class="w-full h-auto overflow-hidden no-scrollbar bg-[--white-color]">
+                               <div class="w-full flex h-[120px] px-4 bg-[lightblue]">
+                                <h2>Get quick answers to your <br> questions by tagging us (@TeamYouTube) on Twitter in Russian. We are ready to help you and  share the latest news <br> and updates with you.</h2>
+                                <span class="material-symbols-outlined">close</span>
+                               </div>
+                               <h2 class="mt-2 ml-4">Popular Help Resources</h2>
+                               <div class="w-full h-[40px] flex mt-6 ml-4 gap-3">
+                                <span class="material-symbols-outlined text-[lightblue]">news</span>
+                                <h2>Lorem ipsum dolor, adipisi Nesciunt eum facilis totam beatae eaque?</h2>
+                               </div>
+                               <div class="w-full h-[40px] flex mt-6 ml-4 gap-3">
+                                <span class="material-symbols-outlined text-[lightblue]">news</span>
+                                <h2>Lorem ipsum dolor, adipisi Nesciunt eum facilis totam beatae eaque?</h2>
+                               </div>
+                               <div class="w-full h-[40px] flex mt-6 ml-4 gap-3">
+                                <span class="material-symbols-outlined text-[lightblue]">news</span>
+                                <h2>Lorem ipsum dolor, adipisi Nesciunt eum facilis totam beatae eaque?</h2>
+                               </div>
+                               <div class="w-full h-[40px] flex mt-6 ml-4 gap-3">
+                                <span class="material-symbols-outlined text-[lightblue]">news</span>
+                                <h2>Lorem ipsum dolor, adipisi Nesciunt eum facilis totam beatae eaque?</h2>
+                               </div>
+                               <div class="w-full h-[40px] flex mt-6 ml-4 gap-3">
+                                <span class="material-symbols-outlined text-[lightblue]">news</span>
+                                <h2>Lorem ipsum dolor, adipisi Nesciunt eum facilis totam beatae eaque?</h2>
+                               </div>
+                               <div class="w-full h-[40px] flex mt-6 ml-4 gap-3">
+                                <span class="material-symbols-outlined text-[lightblue]">news</span>
+                                <h2>Lorem ipsum dolor, adipisi Nesciunt eum facilis totam beatae eaque?</h2>
+                               </div>
+                               <div class="w-full h-[40px] flex mt-6 ml-4 gap-3">
+                                <span class="material-symbols-outlined text-[lightblue]">news</span>
+                                <h2>Lorem ipsum dolor, adipisi Nesciunt eum facilis totam beatae eaque?</h2>
+                               </div>
+                               <div class="w-full h-[40px] flex mt-6 ml-4 gap-3">
+                                <span class="material-symbols-outlined text-[lightblue]">news</span>
+                                <h2>Lorem ipsum dolor, adipisi Nesciunt eum facilis totam beatae eaque?</h2>
+                               </div>
+                            </div>   
+                        </div>
+                </div>
         </nav>
     </header>
 
